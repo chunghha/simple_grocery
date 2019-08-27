@@ -3,27 +3,23 @@ import 'package:flutter/material.dart';
 class AppTheme {
   AppTheme._();
 
-  static const Color primaryColor = const Color(0xFF005DAA);
-  static const Color accentColor = const Color(0xFFDA291C);
-
-  static const Color orange = Color(0xFFFAAB1A);
-  static const Color sky = Color(0xFF80D4E2);
-  static const Color polvere = Color(0xFFE6FFFF);
-  static const Color velato = Color(0xFFCCE6E6);
-  static const Color velato_darken = Color(0xFF6A7575);
-  static const Color notWhite = Color(0xFFEDF0F2);
-  static const Color nearlyWhite = Color(0xFFFEFEFE);
-  static const Color nearlyBlack = Color(0xFF213333);
-  static const Color grey = Color(0xFF3A5160);
-  static const Color dark_grey = Color(0xFF313A44);
-
-  static const Color darkText = Color(0xFF253840);
-  static const Color darkerText = Color(0xFF17262A);
-  static const Color lightText = Color(0xFF4A6572);
-  static const Color deactivatedText = Color(0xFF767676);
-  static const Color dismissibleBackground = Color(0xFF364A54);
-  static const Color chipBackground = Color(0xFFEEF1F3);
-  static const Color spacer = Color(0xFFF2F2F2);
+  static const Color nord0 = const Color(0xFF2E3440);
+  static const Color nord1 = const Color(0xFF3B4252);
+  static const Color nord2 = const Color(0xFF434C5E);
+  static const Color nord3 = const Color(0xFF4C566A);
+  static const Color nord4 = const Color(0xFFD8DEE9);
+  static const Color nord4_darken = const Color(0xFF63666B);
+  static const Color nord5 = const Color(0xFFE5E9F0);
+  static const Color nord6 = const Color(0xFFECEFF4);
+  static const Color nord7 = const Color(0xFF8FBCBB);
+  static const Color nord8 = const Color(0xFF88C0D0);
+  static const Color nord9 = const Color(0xFF81A1C1);
+  static const Color nord10 = const Color(0xFF5E81AC);
+  static const Color nord11 = const Color(0xFFBF616A);
+  static const Color nord12 = const Color(0xFFD08770);
+  static const Color nord13 = const Color(0xFFEBCB8B);
+  static const Color nord14 = const Color(0xFFA3BE8C);
+  static const Color nord15 = const Color(0xFFB48EAD);
 
   static const TextTheme textTheme = TextTheme(
     display1: display1,
@@ -42,7 +38,7 @@ class AppTheme {
     fontSize: 36,
     letterSpacing: 0.4,
     height: 0.9,
-    color: darkerText,
+    color: nord0,
   );
 
   static const TextStyle headline = TextStyle( // h5 -> headline
@@ -50,7 +46,7 @@ class AppTheme {
     fontWeight: FontWeight.bold,
     fontSize: 24,
     letterSpacing: 0.27,
-    color: darkerText,
+    color: nord0,
   );
 
   static const TextStyle title = TextStyle( // h6 -> title
@@ -58,7 +54,7 @@ class AppTheme {
     fontWeight: FontWeight.bold,
     fontSize: 16,
     letterSpacing: 0.18,
-    color: darkerText,
+    color: nord0,
   );
 
   static const TextStyle subtitle = TextStyle( // subtitle2 -> subtitle
@@ -66,7 +62,7 @@ class AppTheme {
     fontWeight: FontWeight.w400,
     fontSize: 14,
     letterSpacing: -0.04,
-    color: darkText,
+    color: nord1,
   );
 
   static const TextStyle body2 = TextStyle( // body1 -> body2
@@ -74,7 +70,7 @@ class AppTheme {
     fontWeight: FontWeight.w400,
     fontSize: 14,
     letterSpacing: 0.2,
-    color: darkText,
+    color: nord1,
   );
 
   static const TextStyle body1 = TextStyle( // body2 -> body1
@@ -82,7 +78,7 @@ class AppTheme {
     fontWeight: FontWeight.w400,
     fontSize: 16,
     letterSpacing: -0.05,
-    color: darkText,
+    color: nord1,
   );
 
   static const TextStyle caption = TextStyle( // Caption -> caption
@@ -90,7 +86,7 @@ class AppTheme {
     fontWeight: FontWeight.w400,
     fontSize: 12,
     letterSpacing: 0.2,
-    color: lightText, // was lightText
+    color: nord2, // was lightText
   );
 
   static const TextStyle button = TextStyle( // Button -> button
@@ -98,6 +94,6 @@ class AppTheme {
     fontWeight: FontWeight.w500,
     fontSize: 16,
     letterSpacing: 0.2,
-    color: darkerText,
+    color: nord6,
   );
 }

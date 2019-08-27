@@ -18,11 +18,11 @@ class _AddItemFormState extends State<AddItemForm> {
   Widget build(BuildContext context) {
     var itemList = Provider.of<ItemList>(context);
     return Container(
-      color: AppTheme.velato_darken,
+      color: AppTheme.nord4_darken,
       child: Container(
         padding: EdgeInsets.all(30),
         decoration: BoxDecoration(
-          color: AppTheme.polvere,
+          color: AppTheme.nord6,
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(30),
             topRight: Radius.circular(30),
@@ -45,7 +45,7 @@ class _AddItemFormState extends State<AddItemForm> {
                 errorText: isValidate ? 'Please enter a value' : null,
                 focusedBorder: UnderlineInputBorder(
                     borderSide: new BorderSide(
-                      color: AppTheme.dark_grey,
+                      color: AppTheme.nord3,
                       width: 3,
                     )),
               ),
@@ -53,8 +53,8 @@ class _AddItemFormState extends State<AddItemForm> {
             SizedBox(
               height: 20,
             ),
-            RaisedButton(
-              color: AppTheme.velato,
+            FlatButton(
+              color: AppTheme.nord10,
               onPressed: () {
                 if (itemValue == null || itemValue.length == 0) {
                   setState(() {

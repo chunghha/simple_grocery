@@ -25,9 +25,9 @@ class Home extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Container(
-              color: AppTheme.sky,
+              color: AppTheme.nord6,
               width: double.infinity,
-              padding: EdgeInsets.fromLTRB(30, 80, 30, 30),
+              padding: EdgeInsets.fromLTRB(30, 50, 30, 30),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -50,10 +50,10 @@ class Home extends StatelessWidget {
             Expanded(
               flex: 5,
               child: Container(
-                color: AppTheme.sky,
+                color: AppTheme.nord6,
                 child: Container(
                   decoration: BoxDecoration(
-                    color: AppTheme.polvere,
+                    color: AppTheme.nord4,
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(30),
                       topRight: Radius.circular(30),

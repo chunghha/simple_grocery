@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
           title: 'Simple Grocery',
           theme: ThemeData(
-            primaryColor: AppTheme.primaryColor,
-            accentColor: AppTheme.accentColor,
-            scaffoldBackgroundColor: AppTheme.notWhite,
-            canvasColor: AppTheme.notWhite,
+            primaryColor: AppTheme.nord10,
+            accentColor: AppTheme.nord11,
+            scaffoldBackgroundColor: AppTheme.nord6,
+            canvasColor: AppTheme.nord5,
             textTheme: AppTheme.textTheme,
           ),
           home: Home()),
