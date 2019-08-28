@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:simple_grocery/models/item.dart';
 
 class ItemWidget extends StatelessWidget {
-  Item item;
-  Function toggleBought;
-  Function deleteItem;
+  final Item item;
+  final Function toggleBought;
+  final Function deleteItem;
 
   ItemWidget(this.item, this.toggleBought, this.deleteItem);
 

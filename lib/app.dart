@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider<ItemList>(
       builder: (context) => ItemList(),
       child: MaterialApp(
+          debugShowCheckedModeBanner: false,
           title: 'Simple Grocery',
           theme: ThemeData(
             primaryColor: AppTheme.nord10,
